@@ -570,7 +570,8 @@ spec:
 
 - Connection http://10.22.22.82:30000
 
-![Untitled](Kubernetes%20Course%20Final%20Project%20%E6%93%8D%E4%BD%9C%E6%89%8B%E5%86%8A%208fa4a651849f48d0b150cee432b75807/Untitled.png)
+![](https://i.imgur.com/IquGW3p.png)
+
 
 # Create MySQL-Exporter
 
@@ -657,11 +658,11 @@ spec:
 
 - 至 prometheus 首頁上方的 “Status” 點擊 “Targets”
 
-![Untitled](Kubernetes%20Course%20Final%20Project%20%E6%93%8D%E4%BD%9C%E6%89%8B%E5%86%8A%208fa4a651849f48d0b150cee432b75807/Untitled%201.png)
+![](https://i.imgur.com/X9bYQMh.png)
 
 - Check 是否有看到 mysql-exporter
 
-![Untitled](Kubernetes%20Course%20Final%20Project%20%E6%93%8D%E4%BD%9C%E6%89%8B%E5%86%8A%208fa4a651849f48d0b150cee432b75807/Untitled%202.png)
+![](https://i.imgur.com/zMJKkWD.png)
 
 # 如何創建 slack
 
@@ -673,25 +674,30 @@ spec:
 
 - 辦理完成後 slack 會將你導入另一個頁面，然後創建一個屬於自己的 Channel，Channel 名稱自行取名，創建完成後就會如下圖所示 (這邊我是創建 monitor 的 channel) :
 
-![Untitled](Kubernetes%20Course%20Final%20Project%20%E6%93%8D%E4%BD%9C%E6%89%8B%E5%86%8A%208fa4a651849f48d0b150cee432b75807/Untitled%203.png)
+![](https://i.imgur.com/TS4Pt55.png)
+
 
 - 如何取得 API
     - 至上方的 Monitoring 下拉，選擇 "Seetings & administration”，旁邊再點擊 "Manage apps”
     
-    ![Untitled](Kubernetes%20Course%20Final%20Project%20%E6%93%8D%E4%BD%9C%E6%89%8B%E5%86%8A%208fa4a651849f48d0b150cee432b75807/Untitled%204.png)
+![](https://i.imgur.com/uPDVrvR.png)
+
     
 
 - 輸入 hoo 就可以看到選項，選擇 "Incoming WebHooks”
 
-![Untitled](Kubernetes%20Course%20Final%20Project%20%E6%93%8D%E4%BD%9C%E6%89%8B%E5%86%8A%208fa4a651849f48d0b150cee432b75807/Untitled%205.png)
+![](https://i.imgur.com/3Dpkfg8.png)
+
 
 - 將 Incoming WebHooks Add to Slack
 
-![Untitled](Kubernetes%20Course%20Final%20Project%20%E6%93%8D%E4%BD%9C%E6%89%8B%E5%86%8A%208fa4a651849f48d0b150cee432b75807/Untitled%206.png)
+![](https://i.imgur.com/jAsMaQ4.png)
+
 
 - 之後往下拉就可以看到 API，後續的 AlertManager 會需要使用到
 
-![Untitled](Kubernetes%20Course%20Final%20Project%20%E6%93%8D%E4%BD%9C%E6%89%8B%E5%86%8A%208fa4a651849f48d0b150cee432b75807/Untitled%207.png)
+![](https://i.imgur.com/udiRwsJ.png)
+
 
 # Create AlertManager
 
@@ -800,4 +806,4 @@ spec:
 
 ### 登入 AlertManager Web Page
 
-![Untitled](Kubernetes%20Course%20Final%20Project%20%E6%93%8D%E4%BD%9C%E6%89%8B%E5%86%8A%208fa4a651849f48d0b150cee432b75807/Untitled%208.png)
+![](https://i.imgur.com/T3X9cno.png)
